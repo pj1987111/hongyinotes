@@ -21,7 +21,7 @@ public class Problems {
 
     public static void start() {
         // 模拟 CPU 过高
-        cpu();
+//        cpu();
         // 模拟线程阻塞
         thread();
         // 模拟线程死锁
