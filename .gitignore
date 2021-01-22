@@ -1,0 +1,38 @@
+## OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*resources/*.xml
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+*.ipr
+*.iws
+
+### Vim ###
+*.swp
+derby.log
+
+### metastore_db ###
+metastore_db
+
+streaming/src/test/*
+config_files
