@@ -1,0 +1,41 @@
+2021-01-28 12:22:19.711 [main] INFO  com.hy.arthas.ArthasApplication: Starting ArthasApplication on MacBook-Air.local with PID 5155 (/Volumes/workspace/zhy/workspace/hongyinotes/hongyiarthas/target/classes started by hongyi.zhou in /Volumes/workspace/zhy/workspace/hongyinotes)
+2021-01-28 12:22:19.721 [main] INFO  com.hy.arthas.ArthasApplication: The following profiles are active: test
+2021-01-28 12:22:21.598 [main] INFO  com.hy.arthas.ArthasApplication: Starting ArthasApplication on MacBook-Air.local with PID 5159 (/Volumes/workspace/zhy/workspace/hongyinotes/hongyiarthas/target/classes started by hongyi.zhou in /Volumes/workspace/zhy/workspace/hongyinotes)
+2021-01-28 12:22:21.602 [main] INFO  com.hy.arthas.ArthasApplication: The following profiles are active: test
+2021-01-28 12:22:24.677 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 3890 (http)
+2021-01-28 12:22:24.709 [main] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-3890"]
+2021-01-28 12:22:24.732 [main] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-01-28 12:22:24.733 [main] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-01-28 12:22:24.830 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 3890 (http)
+2021-01-28 12:22:24.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-3890"]
+2021-01-28 12:22:24.923 [main] INFO  org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2021-01-28 12:22:24.924 [main] INFO  org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-01-28 12:22:24.945 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2021-01-28 12:22:24.945 [main] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 3128 ms
+2021-01-28 12:22:25.280 [main] INFO  org.springframework.web.context.ContextLoader: Root WebApplicationContext: initialization completed in 5333 ms
+2021-01-28 12:22:25.400 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 12:22:26.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2021-01-28 12:22:26.110 [main] INFO  org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-3890"]
+2021-01-28 12:22:26.208 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 3890 (http) with context path ''
+2021-01-28 12:22:26.232 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 12:22:26.234 [main] INFO  com.hy.arthas.ArthasApplication: Started ArthasApplication in 5.664 seconds (JVM running for 7.244)
+2021-01-28 12:22:26.242 [Thread-18] INFO  com.hy.arthas.Problems: Thread[Thread-18,5,main] get ResourceB
+2021-01-28 12:22:26.242 [Thread-17] INFO  com.hy.arthas.Problems: Thread[Thread-17,5,main] get ResourceA
+2021-01-28 12:22:26.814 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Initializing ExecutorService 'taskScheduler'
+2021-01-28 12:22:27.244 [Thread-17] INFO  com.hy.arthas.Problems: Thread[Thread-17,5,main]waiting get resourceB
+2021-01-28 12:22:27.244 [Thread-18] INFO  com.hy.arthas.Problems: Thread[Thread-18,5,main]waiting get resourceA
+2021-01-28 12:22:30.005 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807750005
+2021-01-28 12:22:30.007 [scheduling-1] INFO  com.hy.arthas.LogLevelTest: log info message timestamp is : 1611807750007
+2021-01-28 12:22:35.000 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807755000
+2021-01-28 12:22:40.000 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807760000
+2021-01-28 12:22:45.001 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807765001
+2021-01-28 12:22:45.002 [scheduling-1] INFO  com.hy.arthas.LogLevelTest: log info message timestamp is : 1611807765002
+2021-01-28 12:22:50.000 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807770000
+2021-01-28 12:22:55.001 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807775001
+2021-01-28 12:23:00.002 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807780002
+2021-01-28 12:23:00.003 [scheduling-1] INFO  com.hy.arthas.LogLevelTest: log info message timestamp is : 1611807780003
+2021-01-28 12:23:05.001 [scheduling-1] INFO  com.hy.arthas.CronTest: cron: 1611807785001
+2021-01-28 12:23:07.974 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler: Shutting down ExecutorService 'taskScheduler'
+2021-01-28 12:23:07.976 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor: Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-28 21:52:13.156 [main] INFO  com.hy.arthas.ArthasApplication: Starting ArthasApplication on MacBook-Air.local with PID 25207 (/Volumes/workspace/zhy/workspace/hongyinotes/hongyiarthas/target/classes started by hongyi.zhou in /Volumes/workspace/zhy/workspace/hongyinotes)
+2021-01-28 21:52:13.165 [main] INFO  com.hy.arthas.ArthasApplication: The following profiles are active: test

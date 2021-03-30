@@ -11,6 +11,7 @@
     <modules>
         <module>hongyilab</module>
         <module>hongyiarthas</module>
+        <module>common-utils</module>
     </modules>
     <packaging>pom</packaging>
 
