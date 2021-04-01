@@ -12,6 +12,7 @@
         <module>hongyilab</module>
         <module>hongyiarthas</module>
         <module>common-utils</module>
+        <module>dockerlab</module>
     </modules>
     <packaging>pom</packaging>
 

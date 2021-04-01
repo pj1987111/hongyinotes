@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: test
+server:
+  port: 18099
+  tomcat:
+    max-connections: 2000
+    max-http-form-post-size: 2MB
+    max-swallow-size: 2MB
+    max-threads: 2000
+    connection-timeout: 2s
+    accept-count: 1000
+
+
